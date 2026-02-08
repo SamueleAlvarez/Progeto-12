@@ -41,7 +41,7 @@ function draw() {
   path.velocityY = 4;
   
   // mover o menino com o mouse usando mouseX
-  boy.x = Word.mouseX;
+  boy.x = mouseX;
   
   edges= createEdgeSprites();
   boy.collide(edges[3]);
